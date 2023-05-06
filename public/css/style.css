@@ -9,10 +9,6 @@ body {
     color: #f8f9fa;
 }
 
-header {
-    display: none;
-}
-
 header .supnav {
     width: 100%;
     padding: 0;
@@ -31,11 +27,6 @@ header .navbar-brand {
     color: inherit;
 }
 
-main {
-    height: 100%;
-}
-
 main .container {
     max-width: 70%;
-    height: 100%;
 }
