@@ -68,3 +68,7 @@ main .welcoming .text {
     flex-direction: column;
     position: absolute;
 }
+
+main .welcoming .text h2 {
+    font-weight: bold;
+}
