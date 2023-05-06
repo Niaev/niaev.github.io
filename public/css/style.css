@@ -21,10 +21,26 @@ header .navbar {
     width: 70%;
     background-color: transparent!important;
     border-bottom: 1px solid #f8f9fa;
+    line-height: 36px;
+}
+
+header .container-fluid {
+    justify-content: start!important;
 }
 
 header .navbar-brand {
     color: inherit;
+    cursor: pointer;
+    margin-right: 2px;
+}
+header .navbar-brand:hover {
+    color: inherit;
+}
+
+header .flashing-thing {
+    height: 24px;
+    width: 12px;
+    background-color: #f8f9fa;
 }
 
 main .container {
