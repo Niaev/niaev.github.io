@@ -80,4 +80,9 @@ main .welcoming .text {
 
 main .welcoming .text h2 {
     font-weight: bold;
+    text-align: center;
+}
+
+main .welcoming .text h5 {
+    text-align: center;
 }
