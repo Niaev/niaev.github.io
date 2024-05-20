@@ -47,8 +47,16 @@ main .container {
     max-width: 70%;
 }
 
-main .welcoming {
+main section {
     display: flex;
+    height: 200px;
+}
+
+main section:nth-child(even) {
+    background-color: rgba(129,127,130, 0.1);
+}
+
+main .welcoming {
     height: 100vh;
     max-height: 550px;
     position: relative;
