@@ -1,0 +1,69 @@
+.project-list {
+    margin-bottom: 20px;
+}
+
+.project-card {
+    flex: 0 0 50%;
+}
+
+.project-card .inner-div {
+    background-color: #212529;
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+.project-card .inner-div:hover {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.project-card .inner-div > * {
+    margin-left: 15px;
+}
+
+.project-card .inner-div h3, .project-card .inner-div .language {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.language.first {
+    margin-left: auto;
+}
+
+.language.last {
+    margin-right: 15px;
+}
+
+.language {
+    --language-bg-color: #000;
+
+    font-weight: bold;
+    padding: 2px;
+    margin-left: 5px;
+    background-color: var(--language-bg-color);
+}
+
+.language#html {
+    --language-bg-color: #e44d25;
+}
+
+.language#css {
+    --language-bg-color: #264de4;
+}
+
+.language#js {
+    --language-bg-color: #f7e01d;
+    color: #000;
+}
+
+.language#py {
+    --language-bg-color: #356fa0;
+}
+
+.language#type {
+    --language-bg-color: #817f821a;
+}

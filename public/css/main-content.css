@@ -6,7 +6,16 @@ main section {
 }
 
 main section:nth-child(even) {
-    background-color: rgba(129,127,130, 0.1);
+    background-color: #817f821a;
+}
+
+main section:not(.welcoming) {
+    padding: 1px 10px 10px 10px;
+}
+
+main section:not(.welcoming) h2 {
+    text-align: center;
+    margin: 15px auto;
 }
 
 /* MEDIA QUERY  */
