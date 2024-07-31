@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    width: 100%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+header .my-container {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    background-color: transparent!important;
+    border-bottom: 1px solid #f8f9fa;
+    line-height: 36px;
+}
+
+header .my-row {
+    align-self: center;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+header #my-name {
+    color: inherit;
+    cursor: pointer;
+    margin-right: 2px;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.5rem;
+}
+
+header #my-name:hover {
+    color: inherit;
+}
+
+header .flashing-thing {
+    height: 24px;
+    width: 12px;
+    background-color: #f8f9fa;
+}
+
+header .logo-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 1920px) {
+    header .my-container {
+        max-width: 70%
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    header .my-container {
+        max-width: 1920px;
+    }
+}

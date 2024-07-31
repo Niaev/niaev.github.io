@@ -1,0 +1,32 @@
+main .my-container {
+}
+
+main section {
+    min-height: 200px;
+}
+
+main section:nth-child(even) {
+    background-color: #817f821a;
+}
+
+main section:not(.welcoming) {
+    padding: 1px 10px 10px 10px;
+}
+
+main section:not(.welcoming) h2 {
+    text-align: center;
+    margin: 15px auto;
+}
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 1920px) {
+    main .my-container {
+        max-width: 70%
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    main .my-container {
+        max-width: 1920px;
+    }
+}
