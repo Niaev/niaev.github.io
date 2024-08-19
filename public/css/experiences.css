@@ -1,0 +1,39 @@
+.exp-text {
+    text-align: center;
+}
+
+.exp-list {
+    margin-bottom: 20px;
+}
+
+.exp-card {
+    flex: 0 0 50%;
+}
+
+.exp-card .inner-div {
+    background-color: #212529;
+    width: 90%;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+.exp-card .inner-div:hover {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.exp-card .inner-div h3, .exp-card .inner-div .language {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.exp-card .inner-div .my-row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.exp-card .inner-div a {
+    margin-bottom: 12px;
+}
