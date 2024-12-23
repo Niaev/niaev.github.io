@@ -47,6 +47,14 @@ header .logo-cell {
     justify-content: center;
 }
 
+header #github-link {
+    margin-left: auto;
+}
+
+header #github-link a {
+    color: #f8f9fa;
+}
+
 /* MEDIA QUERY  */
 @media screen and (max-width: 1920px) {
     header .my-container {
