@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.exp-card .inner-div h3, .exp-card .inner-div .language {
+.exp-card .inner-div h3, .exp-card .inner-div .time-period {
     margin-top: 14px;
     margin-bottom: 14px;
 }
@@ -36,4 +36,11 @@
 
 .exp-card .inner-div a {
     margin-bottom: 12px;
+}
+
+.time-period {
+    margin-left: auto;
+    padding: 2px;
+    font-weight: bold;
+    color: #ccc;
 }
