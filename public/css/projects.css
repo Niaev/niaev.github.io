@@ -96,3 +96,11 @@
 .tag#type {
     --tag-bg-color: #817f821a;
 }
+
+.more {
+    text-align: center;
+}
+
+.more a {
+    color: #f8f9fa;
+}
